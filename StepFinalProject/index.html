@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savora Restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Savora</a>
+
+            <button id="menuToggle">☰</button>
+
+            <div id="navMenu">
+                <a href="index.html">Home</a>
+                <a href="menu.html">Menu</a>
+                <a href="cart.html">Cart <span id="cartCount">0</span></a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Savora</h1>
+            <p>Discover delicious food made with fresh ingredients.</p>
+            <a href="menu.html">Explore Our Menu</a>
+        </section>
+
+        <section>
+            <h2>Our Categories</h2>
+            <div class="categories">
+                <a href="menu.html?category=Pizza">🍕 Pizza</a>
+                <a href="menu.html?category=Burgers">🍔 Burgers</a>
+                <a href="menu.html?category=Salads">🥗 Salads</a>
+                <a href="menu.html?category=Desserts">🍰 Desserts</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Featured Dishes</h2>
+            <div id="featuredDishes">
+                <p>Loading dishes...</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We serve delicious food and create unforgettable moments.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Savora Restaurant</p>
+    </footer>
+
+</body>
+</html>
+```
